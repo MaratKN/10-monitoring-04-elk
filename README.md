@@ -44,9 +44,11 @@ Filebeat следует сконфигурировать для отправки
 - docker-compose манифест (если вы не использовали директорию help);
 - ваши yml-конфигурации для стека (если вы не использовали директорию help).
 
+```
 marat@DebianNew:~/mon3/10-monitoring-04-elk/help$ sudo sysctl -w vm.max_map_count=262144
 marat@DebianNew:~/mon3/10-monitoring-04-elk/help$ sudo echo "vm.max_map_count=262144" >> /etc/sysctl.conf
 marat@DebianNew:~/mon3/10-monitoring-04-elk/help$ sudo docker compose up -d
+```
 
 ![alt text](https://github.com/MaratKN/10-monitoring-04-elk/blob/main/1.png)
 
